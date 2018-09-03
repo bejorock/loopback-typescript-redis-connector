@@ -1,0 +1,30 @@
+{
+  "name": "loopback-typescript-redis-connector",
+  "version": "1.0.0",
+  "description": "loopback redis connector in typescript",
+  "main": "src/main/index.ts",
+  "scripts": {
+    "test:init": "./node_modules/.bin/jasmine init",
+    "test": "ts-node ./node_modules/.bin/jasmine"
+  },
+  "keywords": [
+    "loopback",
+    "typescript",
+    "redis"
+  ],
+  "author": "rana.lubis",
+  "license": "ISC",
+  "dependencies": {
+    "ioredis": "^4.0.0",
+    "lodash": "^4.17.10",
+    "rxjs": "^6.3.1"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.8.8",
+    "jasmine": "^3.2.0",
+    "loopback": "^3.22.2",
+    "loopback-boot": "^2.27.1",
+    "loopback-connector": "^4.5.1",
+    "loopback-datasource-juggler": "^3.23.0"
+  }
+}
