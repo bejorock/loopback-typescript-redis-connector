@@ -4,7 +4,7 @@ import * as connectorCore from 'loopback-connector';
 import { Observable } from 'rxjs'
 import * as _ from 'lodash'
 
-const Connector = connectorCore.Connector
+import Connector = connectorCore.Connector
 const Dao:any = function() {}
 
 Object.getOwnPropertyNames(RedisDao.prototype).forEach(name => {
